@@ -8,7 +8,7 @@ public class App {
         //Si no, entonces hacer f igual al valor avsoluto de x
         if  (x > 0); { //bloque de setencia condocional
             f = x * x;
-        } else if {x > 0} {
+        } else if (x > 0) {
             f = x * x;
         } else { 
             f = Math.abs(x);
