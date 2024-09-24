@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         //condicionales
-        double x = 50;
+        double x = -110;
         double f = 0;
         // Si x es mayor a 0, hacer f igual a x al cuadrado
         //si no, si x es mayor a 0, hacer f igual a x al ciadrado
