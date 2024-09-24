@@ -12,6 +12,9 @@ public class App {
             f = x * x;
         } else { 
             f = Math.abs(x);
+            if (x > -100) {//bloque de sentencia condicional añadida 
+                f = f/2;
+            }// fin de bloque de sentencia condicional añadida
         } //fin de bloque de sentencia condicionañ
         System.out.println("El valor es: " + f);
         //condicionales
