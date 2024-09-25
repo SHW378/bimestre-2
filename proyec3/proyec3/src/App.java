@@ -2,13 +2,13 @@ public class App {
     public static void main(String[] args) throws Exception {
         double a  = 3;
         double b = 4;
-        char s = '+';
+        char s = '-';
 
         if (s == '+') {
             System.out.println("El resultado es = "+ (a+b));
         } else if (s == '-') {
             System.out.println("El resusltado es = "+ (a-b));
-        } else if (b == '*') {
+        } else if (s == '*') {
             System.out.println("El resultado es = "+ (a*b));
         } else if (b == 0) {
             if (a == 0) {
