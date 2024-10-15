@@ -10,9 +10,11 @@ public class App {
         if  (operacion == 'f') {
             System.out.println("Programa finalizado");
             salida = false; 
+            continue;
         }
         if (operacion != '+' && operacion != '-' && operacion != '*' && operacion != '/') {
             System.out.println("El operador no es válido. Intente de nuevo o finalizar el programa.");
+            continue;
         }
         System.out.print("Ingrese el valor de a: ");
         double a = scanner.nextDouble();
